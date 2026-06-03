@@ -1,4 +1,4 @@
-# Planning: Sistem Manajemen Kopi Keliling
+# Planning: Sistem Manajemen Kopi Keliling - Kopi Ajoe
 **Versi:** 2.0  
 **Tanggal:** Juni 2026  
 **Framework:** Laravel 11  
@@ -30,11 +30,11 @@
 
 ### 1.1 Deskripsi Bisnis
 
-Usaha kopi keliling adalah bisnis penjualan kopi yang beroperasi menggunakan armada motor listrik. Setiap motor listrik dikendarai oleh satu seller. Seller membawa stok kopi yang telah dikonfirmasi oleh manager setiap harinya, kemudian berkeliling untuk berjualan. Hasil penjualan dicatat secara digital melalui web aplikasi ini.
+Kopi Ajoe adalah bisnis penjualan kopi keliling yang beroperasi menggunakan armada motor listrik. Setiap motor listrik dikendarai oleh satu seller. Seller membawa stok kopi yang telah dikonfirmasi oleh manager setiap harinya, kemudian berkeliling untuk berjualan. Hasil penjualan dicatat secara digital melalui web aplikasi ini.
 
 ### 1.2 Tujuan Aplikasi
 
-- Mendigitalisasi seluruh proses operasional penjualan kopi keliling
+- Mendigitalisasi seluruh proses operasional penjualan Kopi Ajoe
 - Memudahkan manager memantau aktivitas seller dan motor secara real-time
 - Menyediakan sistem pencatatan transaksi yang akurat dan mudah digunakan seller di lapangan
 - Menghasilkan laporan keuangan dan operasional yang komprehensif
@@ -1312,10 +1312,10 @@ Seller mengendarai motor dan melayani pembeli di lapangan. UI harus:
 
 ```bash
 # Buat proyek baru
-composer create-project laravel/laravel kopi-keliling
+composer create-project laravel/laravel kopi-ajoe
 
 # Masuk direktori
-cd kopi-keliling
+cd kopi-ajoe
 
 # Install packages
 composer require spatie/laravel-permission
